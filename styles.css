@@ -305,11 +305,11 @@
 }
 @media (max-width:17cm){
     .w-nav{
-        width: 3.4cm;
+        width: 3.2cm;
     }
     .title{
         text-align: end;
-        font-size: 18px;
+        font-size: 16px;
     }
     .header-par{
         margin:0 0 0 -40px;
@@ -331,7 +331,7 @@
     }
     .Notif{
         position: absolute;
-        top:2.3cm;
+        top:2.4cm;
         cursor: pointer;
     }
     .Notifs{
@@ -349,7 +349,7 @@
     }
     .DownloadText{
         position: absolute;
-        top:4.3cm;
+        top:4.4cm;
         cursor: pointer;
     }
     .DownloadTexts{
@@ -361,7 +361,7 @@
     }
     .MyEmail{
         position: absolute;
-        top:6.3cm;
+        top:6.4cm;
         cursor: pointer;
     }
     .MyEmails{
@@ -371,7 +371,7 @@
     }
     .MyWeb{
         position: absolute;
-        top:8.3cm;
+        top:8.4cm;
         cursor: pointer;
     }
     .MyWebs{
@@ -381,7 +381,7 @@
     }
     .ZoomIn{
         position: absolute;
-        top:10.3cm; 
+        top:10.4cm; 
         cursor: pointer;
     }
     .ZoomIns{
@@ -391,7 +391,7 @@
     }
     .ZoomOut{
         position: absolute;
-        top:12.3cm;  
+        top:12.4cm;  
         cursor: pointer;
     }
     .ZoomOuts{
