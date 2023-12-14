@@ -357,7 +357,7 @@
         top:5.2cm;
         left:3px;
         white-space: normal;
-        width: 30px;
+        width: 45px;
     }
     .MyEmail{
         position: absolute;
@@ -391,12 +391,12 @@
     }
     .ZoomOut{
         position: absolute;
-        top:14.3cm;   
+        top:13.3cm;  
         cursor: pointer;
     }
     .ZoomOuts{
         position: absolute;  
-        top:13.3cm;
+        top:14.3cm; 
         left:3px;
     }
     .afterInfo:hover{
