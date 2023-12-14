@@ -82,7 +82,6 @@
 }
 .main-mr{
     margin-left:130px
-    overflow: hidden;
 }
 ::-webkit-scrollbar {
     width: 7px;
