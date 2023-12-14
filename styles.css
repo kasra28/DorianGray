@@ -305,7 +305,7 @@
 }
 @media (max-width:19cm){
     .w-nav{
-        width: 3.3cm;
+        width: 3.4cm;
     }
     .title{
         text-align: end;
@@ -357,7 +357,7 @@
         top:5.2cm;
         left:3px;
         white-space: normal;
-        width: 45px;
+        width: 60px;
     }
     .MyEmail{
         position: absolute;
@@ -391,12 +391,12 @@
     }
     .ZoomOut{
         position: absolute;
-        top:13.3cm;  
+        top:12.3cm;  
         cursor: pointer;
     }
     .ZoomOuts{
         position: absolute;  
-        top:14.3cm; 
+        top:13.3cm; 
         left:3px;
     }
     .afterInfo:hover{
