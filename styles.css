@@ -10,6 +10,7 @@
     width: 100%;
     z-index: -10;
     filter: blur(2px) brightness(80%);
+    overflow: hidden;
 }
 .nav-bar{
     border-right:solid black 1px;
@@ -21,6 +22,7 @@
     z-index: 10;
     background: rgba(110, 221, 255, 0.116);
     transition: 0.5s cubic-bezier(.01,.7,.26,1.04);
+    overflow: hidden;
 }
 .container {
     margin-top:8px;
@@ -80,6 +82,7 @@
 }
 .main-mr{
     margin-left:130px
+    overflow: hidden;
 }
 ::-webkit-scrollbar {
     width: 7px;
