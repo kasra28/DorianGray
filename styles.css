@@ -206,7 +206,7 @@
 
 /* settings for smaller device such as phone and tablet*/
 
-@media (min-width:19cm) and (max-width:20cm) {
+@media (min-width:17cm) and (max-width:20cm) {
     .w-nav{
         width: 3.2cm;
     }
@@ -303,13 +303,13 @@
         left:3px;
     }
 }
-@media (max-width:19cm){
+@media (max-width:17cm){
     .w-nav{
         width: 3.4cm;
     }
     .title{
         text-align: end;
-        font-size: 18px;
+        font-size: 21px;
     }
     .header-par{
         margin:0 0 0 -40px;
