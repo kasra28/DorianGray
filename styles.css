@@ -1,0 +1,421 @@
+*::selection{
+    background-color: rgb(167, 142, 0);
+    color:white;
+}
+.img-ed{
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    filter: blur(2px) brightness(80%);
+}
+.nav-bar{
+    border-right:solid black 1px;
+    width: 55px;
+    height: 100%;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 10;
+    background: rgba(110, 221, 255, 0.116);
+    transition: 0.5s cubic-bezier(.01,.7,.26,1.04);
+}
+.container {
+    margin-top:8px;
+    white-space: nowrap;
+    cursor: pointer;
+    width: fit-content;
+    padding:0;
+}
+.bar1, .bar2, .bar3 {
+    width: 24px;
+    height: 3px;
+    background-color: #000c77;
+    margin: 6px 10px;
+    transition: 0.4s;
+}
+  
+.change .bar1 {
+    animation: bar-stat 1.2s linear infinite forwards;
+    transform: rotate(20deg);
+}
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    animation: bar-stat 1.2s linear infinite forwards;
+    transform: rotate(-20deg);
+}
+@keyframes bar-stat {
+    0%{background-color: #000c77;}
+    50%{background-color: #0016db;}
+    100%{background-color: #000c77;}
+}
+.header-par{
+    font-weight: 700;
+    font-size: medium;
+    font-family: 'Hedvig Letters Serif', serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-left:30px;
+    line-height: 28px;
+    color:rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px rgb(153, 153, 153);
+    transition: 0.4s;
+    background:radial-gradient(rgba(216, 216, 216, 0.219),rgba(128, 128, 128, 0.007));
+    padding: 40px;
+    margin-top: -20px;
+    margin-right: 50px;
+}
+.title{
+    font-weight: bolder;
+    font-size: 27px;
+    margin:20px auto;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    background: transparent;
+    padding: 0;
+}
+.main-mr{
+    margin-left:130px
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: #001c68;
+}
+::-webkit-scrollbar-thumb {
+    background: #eeff8d4d;
+}
+.time{
+    position: absolute;
+    top:-5px;
+    left:53px;
+    opacity: 0;
+    cursor: default;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.timer{
+    opacity: 1;
+    cursor: default;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.w-nav{
+    width: 200px;
+}
+.fa{
+    margin-left: 8px;
+    cursor: pointer;
+}
+.iconInfo{
+    font-size: 16px;
+    opacity: 0;
+    cursor: default;
+    transition: 0.9s cubic-bezier(0,1.49,.69,1);
+    position: absolute;
+    left: 50px;
+    white-space: nowrap;
+    pointer-events: none;
+    color:rgb(0, 0, 0);
+}
+.fa{
+    transition: 0.2s linear;
+    color: black;
+}
+.fa:hover{
+    color:rgb(161, 161, 161);
+}
+.Notif{
+    position: absolute;
+    top:2cm;
+    cursor: pointer;
+}
+.Notifs{
+    position: absolute;
+    top:2.1cm;
+}
+.ScreenShot{
+    position: absolute;
+    top:4cm;
+    cursor: pointer;
+}
+.ScreenShots{
+    position: absolute;
+    top:4.1cm;
+}
+.DownloadText{
+    position: absolute;
+    top:6cm;
+    cursor: pointer;
+}
+.DownloadTexts{
+    position: absolute;
+    top:6.1cm;
+}
+.MyEmail{
+    position: absolute;
+    top:8cm;
+    cursor: pointer;
+}
+.MyEmails{
+    position: absolute;
+    top:8.1cm;
+}
+.MyWeb{
+    position: absolute;
+    top:10cm; 
+    cursor: pointer;
+}
+.MyWebs{
+    position: absolute;
+    top:10.1cm; 
+}
+.ZoomIn{
+    position: absolute;
+    top:12cm;
+    cursor: pointer;
+}
+.ZoomIns{
+    position: absolute;
+    top:12.1cm;
+}
+.ZoomOut{
+    position: absolute;
+    top:14cm;   
+    cursor: pointer;
+}
+.ZoomOuts{
+    position: absolute;
+    top:14.1cm;   
+}
+.afterInfo{
+    opacity: 1;
+    font-size: 16px;
+    position: absolute;
+    cursor: pointer;
+    pointer-events: all;
+}
+.afterInfo:hover{
+    color:rgb(175, 126, 0);
+}
+
+/* settings for smaller device such as phone and tablet*/
+
+@media (min-width:10cm) and (max-width:20cm) {
+    .w-nav{
+        width: 3.2cm;
+    }
+    .title{
+        text-align: end;
+        font-size: 25px;
+    }
+    .header-par{
+        margin:0 0 0 -40px;
+    }
+    .time{
+        position: absolute;
+        top:30px;
+        left:2px;
+        opacity: 0;
+        cursor: default;
+        pointer-events: none;
+        white-space: nowrap;
+    }
+    .timer{
+        opacity: 1;
+        cursor: default;
+        pointer-events: none;
+        white-space: nowrap;
+    }
+    .Notif{
+        position: absolute;
+        top:2.3cm;
+        cursor: pointer;
+    }
+    .Notifs{
+        position: absolute;
+        top:3.2cm;
+        left:3px;
+    }
+    .ScreenShot{
+        position: absolute;
+        top:4.3cm;
+        cursor: pointer;
+    }
+    .ScreenShots{
+        position: absolute;
+        top:5.2cm;
+        left:3px;
+    }
+    .DownloadText{
+        position: absolute;
+        top:6.3cm;
+        cursor: pointer;
+    }
+    .DownloadTexts{
+        position: absolute;
+        top:7.3cm;
+        left:3px;
+    }
+    .MyEmail{
+        position: absolute;
+        top:8.3cm;
+        cursor: pointer;
+    }
+    .MyEmails{
+        position: absolute;
+        top:9.3cm;
+        left:3px;
+    }
+    .MyWeb{
+        position: absolute;
+        top:10.3cm; 
+        cursor: pointer;
+    }
+    .MyWebs{
+        position: absolute;
+        top:11.3cm; 
+        left:3px;
+    }
+    .ZoomIn{
+        position: absolute;
+        top:12.3cm;
+        cursor: pointer;
+    }
+    .ZoomIns{
+        position: absolute;
+        top:13.3cm;
+        left:3px;
+    }
+    .ZoomOut{
+        position: absolute;
+        top:14.3cm;   
+        cursor: pointer;
+    }
+    .ZoomOuts{
+        position: absolute;
+        top:15.3cm;   
+        left:3px;
+    }
+}
+@media (max-width:10cm){
+    .w-nav{
+        width: 3.2cm;
+    }
+    .title{
+        text-align: end;
+        font-size: 18px;
+    }
+    .header-par{
+        margin:0 0 0 -40px;
+    }
+    .time{
+        position: absolute;
+        top:30px;
+        left:2px;
+        opacity: 0;
+        cursor: default;
+        pointer-events: none;
+        white-space: nowrap;
+    }
+    .timer{
+        opacity: 1;
+        cursor: default;
+        pointer-events: none;
+        white-space: nowrap;
+    }
+    .Notif{
+        position: absolute;
+        top:2.3cm;
+        cursor: pointer;
+    }
+    .Notifs{
+        position: absolute;
+        top:3.2cm;
+        left:3px;
+    }
+    .ScreenShot{
+        opacity: 0;
+        pointer-events: none;
+    }
+    .ScreenShots{
+        opacity: 0;
+        pointer-events: none;
+    }
+    .DownloadText{
+        position: absolute;
+        top:4.3cm;
+        cursor: pointer;
+    }
+    .DownloadTexts{
+        position: absolute;
+        top:5.2cm;
+        left:3px;
+        white-space: normal;
+        width: 30px;
+    }
+    .MyEmail{
+        position: absolute;
+        top:6.3cm;
+        cursor: pointer;
+    }
+    .MyEmails{
+        position: absolute;
+        top:7.3cm;
+        left:3px;
+    }
+    .MyWeb{
+        position: absolute;
+        top:8.3cm;
+        cursor: pointer;
+    }
+    .MyWebs{
+        position: absolute;
+        top:9.3cm;
+        left:3px;
+    }
+    .ZoomIn{
+        position: absolute;
+        top:10.3cm; 
+        cursor: pointer;
+    }
+    .ZoomIns{
+        position: absolute;
+        top:11.3cm; 
+        left:3px;
+    }
+    .ZoomOut{
+        position: absolute;
+        top:14.3cm;   
+        cursor: pointer;
+    }
+    .ZoomOuts{
+        position: absolute;  
+        top:13.3cm;
+        left:3px;
+    }
+    .afterInfo:hover{
+        color:black;
+    }
+    .fa:hover{
+        color:black;
+    }
+}
+@media (max-height:15.99cm) {
+    .nav-bar{
+        border-right:none;
+        width: 55px;
+        height: 100%;
+        position: absolute;
+        left:0;
+        top:0;
+        z-index: 10;
+        transition: 0.5s cubic-bezier(.01,.7,.26,1.04);
+        background: transparent;
+    }
+}
