@@ -206,7 +206,7 @@
 
 /* settings for smaller device such as phone and tablet*/
 
-@media (min-width:15cm) and (max-width:20cm) {
+@media (min-width:19cm) and (max-width:20cm) {
     .w-nav{
         width: 3.2cm;
     }
@@ -303,7 +303,7 @@
         left:3px;
     }
 }
-@media (max-width:15cm){
+@media (max-width:19cm){
     .w-nav{
         width: 3.2cm;
     }
