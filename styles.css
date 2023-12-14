@@ -361,42 +361,42 @@
     }
     .MyEmail{
         position: absolute;
-        top:6.3cm;
+        top:6.8cm;
         cursor: pointer;
     }
     .MyEmails{
         position: absolute;
-        top:7.3cm;
+        top:7.8cm;
         left:3px;
     }
     .MyWeb{
         position: absolute;
-        top:8.3cm;
+        top:8.8cm;
         cursor: pointer;
     }
     .MyWebs{
         position: absolute;
-        top:9.3cm;
+        top:9.8cm;
         left:3px;
     }
     .ZoomIn{
         position: absolute;
-        top:10.3cm; 
+        top:10.8cm; 
         cursor: pointer;
     }
     .ZoomIns{
         position: absolute;
-        top:11.3cm; 
+        top:11.8cm; 
         left:3px;
     }
     .ZoomOut{
         position: absolute;
-        top:12.3cm;  
+        top:12.8cm;  
         cursor: pointer;
     }
     .ZoomOuts{
         position: absolute;  
-        top:13.3cm; 
+        top:13.8cm; 
         left:3px;
     }
     .afterInfo:hover{
