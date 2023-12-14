@@ -58,7 +58,7 @@ document.querySelectorAll('.f').forEach((b) => {
     document.querySelectorAll('.text-content').forEach(zoomElement => {
       zoomElement.style.transition = 'none';
       if (a === true) {
-        zoomElement.style.fontSize = '24px';
+        zoomElement.style.fontSize = '22px';
       } else {
         zoomElement.style.fontSize = '16px';
       }
